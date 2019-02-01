@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  phoneNumber = '1234567890';
+
+  call() {
+    window.open(`tel:${this.phoneNumber}`, '_system');
+  }
+
 }
