@@ -1,0 +1,7 @@
+{
+  "name": "Ionic4PhoneCallWithInAppBrowser",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
